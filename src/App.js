@@ -1,4 +1,6 @@
+import React from "react";
 import ExpenseItem from "./components/ExpenseItem";
+
 
 function App() {
   const expense = [
@@ -10,12 +12,12 @@ function App() {
     {
       title: "Car Insurnce",
       amount: 475.89,
-      date: new Date(2022, 2, 25),
+      date: new Date(2022, 2, 24),
     },
     {
       title: "Toilet Papers",
       amount: 456.58,
-      date: new Date(2022, 2, 25),
+      date: new Date(2022, 2, 23),
     },
   ];
   return (
